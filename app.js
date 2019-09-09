@@ -40,7 +40,8 @@ app.use((req,res,next)=>{
 })
 
 
-const SERVER_PORT = parseInt(process.env.NODE_SERVER_PORT);
+//const SERVER_PORT = parseInt(process.env.NODE_SERVER_PORT);
+const SERVER_PORT=parseInt(process.env.PORT)
 
 console.log('typeof(SERVER_PORT)', typeof (SERVER_PORT));
 
