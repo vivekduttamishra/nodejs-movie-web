@@ -1,0 +1,12 @@
+<div class="row">
+    <% for(let movie of movies){%>
+
+    <div class="col-sm-3 item-thumbnail">
+        <a href='/movie/info/<%=movie.imdbID%>'>
+            <p><%=movie.Title%></p>
+            <img src="<%=movie.Poster%>" class="img-responsive front-page-poster" style="width:100%" alt="Image">
+        </a>
+    </div>
+
+    <%}%>
+</div>

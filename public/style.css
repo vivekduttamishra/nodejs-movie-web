@@ -1,0 +1,63 @@
+h1{
+    text-shadow: -2px -2px 2px red;
+}
+
+.front-page-poster{
+    max-height:  150px;
+}
+
+.movie-form{
+    width: 50%;
+    align-content: center;
+    text-align: center;
+
+}
+
+.btn{
+    margin:5px;
+}
+
+.item-thumbnail, .item-thumbnail a, .item-thumbnail a:active, .item-thumbnail:visited{
+
+    text-decoration: none;
+    font-weight: bold;
+    overflow:hidden;
+    color:black;
+
+}
+
+.movie-info-image{
+
+    max-height:70%;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px gray;
+
+}
+
+.movie-info-list{
+    text-align: left;
+}
+
+.list-label{
+    display:block;
+    font-weight: bolder;
+
+    font-size:1.2em;
+}
+
+.list-value{
+    display:block;
+    font-style: italic;
+    padding:5px;    
+}
+.movie-plot{
+    margin:20px;
+}
+
+.not-found-image{
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px gray;
+    margin:10px;
+    padding:10px;
+}

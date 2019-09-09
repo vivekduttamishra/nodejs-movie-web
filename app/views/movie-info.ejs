@@ -1,0 +1,66 @@
+<div class="row movie-plot">
+    <h3>Plot</h3>
+    <%=movie.Plot%>
+</div>
+<div class="row">
+    <div class='col col-md-4'>
+        <img src='<%=movie.Poster%>' class='movie-info-image' />
+    </div>
+
+    <div class='col col-md-8'>
+        <ul class='movie-info-list'>
+            <li>
+                <span class='list-label'>
+                    Released
+                </span>
+                <span class='list-value'>
+                    <%=movie.Released%>
+                </span>
+            </li>
+            <li>
+                <span class='list-label'>
+                    Imdb Rating
+                </span>
+                <span class='list-value'>
+                    <%=movie.imdbRating%> (<%=movie.imdbVotes%> votes)
+                </span>
+            </li>
+            <li>
+                <span class='list-label'>
+                    Director
+                </span>
+                <span class='list-value'>
+                    <%=movie.Director%>
+                </span>
+            </li>
+
+            <li>
+                <span class='list-label'>
+                    Actors
+                </span>
+                <span class='list-value'>
+                    <%=movie.Actors%>
+                </span>
+            </li>
+
+            <li>
+                <span class='list-label'>
+                    Genre
+                </span>
+                <span class='list-value'>
+                    <%=movie.Genre%>
+                </span>
+            </li>
+
+
+            <li>
+                <span class='list-label'>
+                    Type
+                </span>
+                <span class='list-value'>
+                    <%=movie.Type%>
+                </span>
+            </li>
+        </ul>
+    </div>
+</div>
