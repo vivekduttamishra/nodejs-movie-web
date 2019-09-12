@@ -5,7 +5,7 @@ const expressLayout = require('express-ejs-layouts');
 let configureWebApp=function(app) {
 
     //------- view engine configuration-------------
-    let viewPath = `${__dirname}\\views`;
+    let viewPath = `${__dirname}/views`;
     app.set('view engine', 'ejs'); //will auto configure ejs as the view engine
     app.set('views', viewPath);
 
