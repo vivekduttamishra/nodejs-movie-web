@@ -2,7 +2,8 @@
   "name": "movie-node",
   "version": "1.0.0",
   "description": "",
-  "main": "app/main.js",
+  "main": "app.js",     
+  
   "scripts": {
     "start": "node app.js",
     "development": ".\\node_modules\\.bin\\nodemon ./app/main.js",
